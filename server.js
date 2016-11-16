@@ -1,8 +1,9 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
+// mongodb://<dbuser>:<dbpassword>@ds155747.mlab.com:55747/littlebrocdb
 // var routes = require('./api/routes');
-// var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
 
 
